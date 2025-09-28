@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.texto{
+    
+   border: solid 1px;
+   color: #A5D2E0;
+   border-radius: 10px;
+   background: white;
+   padding: 2px;
+   margin: 2px;
+   
+
+    
+}
+
+#contenedor{
+    width: 90%; 
+    border: 3px solid gray;
+    margin: 25px auto;
+    background-image: url(imagenes/fondo.jpg);
+    
+
+}
+
+.linea{
+    height: 4px;
+    background-color: black;
+    margin: 25px;
+    
+}
+#logo {
+    height: 155px;
+    border-radius: 50%;
+    
+}
+
+#Cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 25px;
+}
+
+#Titulo{
+    text-align: justify;
+    padding: 15px;
+    margin: 15px;
+    
+}
+
+.parrafo{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#Contenidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 15px;
+    border: solid;
+
+}
+.HTML{
+    border: solid 50px color #D94625;
+    background: #D94625;
+    padding: 1px;
+    margin: 1px;
+}
+
+.CSS{
+    border: solid 50px color #1A82C4;
+    background: #1A82C4;
+    padding: 1px;
+    margin: 1px;
+}
+
+.JV{
+    border: solid 50px color#7DB237;
+    background: #7DB237;
+    padding: 3px;
+    margin: 3px;
+}
+
+.ht{
+    border: solid 50px color #D94625;
+    background: #D94625;
+    padding: 3px;
+    margin: 3px;
+}
+.CS{
+    border: solid 50px color #1A82C4;
+    background: #1A82C4;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Javascript{
+     border: solid 50px color#7DB237;
+    background: #7DB237;
+    padding: 3px;
+    margin: 3px;
+}
+
+.base{
+    border: 3px solid gray;
+    background-color: lavender;
+    width:35%;
+    margin: 15px;
+    padding: 5px;
+    
+
+}
+
+.base img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+    
+}
+
+.base h2{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    color: white;
+}
+
+.base p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#Conten{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 10px;
+    border: solid;
+}
+
+.fondo{
+    border: 3px solid gray;
+    background-color: lavender;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.fondo h2{
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.fondo p{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: monospace;
+}
+
+#casa2{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 10 px;
+}
+
+.casita img{
+    box-shadow: 10px 10px 10px gray;
+}
+
+#pie{
+    text-align: center;
+    border: solid 1px;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 1px;
+    background: white
+    
+
+}
+.pi p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
